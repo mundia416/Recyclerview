@@ -8,7 +8,7 @@ contains base structure and classes to form the base framework to develop apps
 
 3. Copy all the files in the base repository to the directory of the newly created android project replacing all the files and directories
 
-4. open the following directories and rename them to the directories of your newly created android project following its package name
+4. Open the following directories and rename them to the directories of your newly created android project following its package name
 
 ```
 Base/app/src/main/java/com/nosetrap/base
@@ -16,7 +16,9 @@ Base/app/src/test/java/com/nosetrap/base
 Base/app/src/androidTest/java/com/nosetrap/base
 ```
 
-5. Open the app module's build.gradle file and update the applicationId to the package name of your newly created android project
+5. in the projects directory, rename the ``` Base.iml ``` to match the name of your newly created android project.
+
+6. Open the app module's build.gradle file and update the applicationId to the package name of your newly created android project
 
 ```
 android {
@@ -31,7 +33,7 @@ android {
  }
 ```
 
-6. Open the app module's AndroidManifest file and update the package name to the package name of your newly created android project
+7. Open the app module's AndroidManifest file and update the package name to the package name of your newly created android project
 
 ```
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
@@ -39,7 +41,7 @@ android {
     ...
  ```
  
- 7. Open the strings resource file and update the appname to the name of the newly created android project
+ 8. Open the strings resource file and update the appname to the name of the newly created android project
  
  ```
   <string name="app_name">Base</string>
