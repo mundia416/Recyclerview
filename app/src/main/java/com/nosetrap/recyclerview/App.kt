@@ -1,4 +1,4 @@
-package com.nosetrap.base
+package com.nosetrap.recyclerview
 
 import android.app.Application
 import com.squareup.leakcanary.LeakCanary
