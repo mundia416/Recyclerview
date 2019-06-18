@@ -179,7 +179,7 @@ class RecyclerViewHelper private constructor(){
     /**
      * a recyclerView with a staggered grid layout manager
      */
-    class StaggeredGridBuilder(private val activity: AppCompatActivity,private var recyclerView: RecyclerView){
+    class StaggeredGridBuilder(private var recyclerView: RecyclerView){
         private var adapter: RecyclerView.Adapter<RecyclerView.ViewHolder>? = null
         private val builder = Builder(recyclerView)
         private var isHorizontal = false
